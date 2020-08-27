@@ -56,5 +56,7 @@ console.log('\n');
 // Soal 5
 var daftarBuah = ['2. Apel', '5. Jeruk', '3. Anggur', '4. Semangka', '1. Mangga'];
 var sortedBuah = daftarBuah.sort();
-console.log(sortedBuah);
+for(var i = 0; i < sortedBuah.length; i++){
+    console.log(sortedBuah[i]);
+}
 
