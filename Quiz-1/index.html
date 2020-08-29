@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz1-Soal1</title>
+    <style>
+        header{
+            text-align: center;
+        }
+        .form-control{
+            margin: 0 auto;
+            width: 50%;
+            border: solid 1px;
+            border-radius: 10px;
+        }
+        .form-input{
+            display: flex;
+            justify-content: start;
+        }
+        .choice{
+            align-items: flex-end;
+        }
+        .input-label{
+            font-weight: 700;
+        }
+        .custom-flex{
+            display: flex;
+            flex-direction: column;
+            margin: 1.5rem;
+        }
+        .items{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .btn{
+            border-radius: 10px;
+            background-color: white;
+            width: 64px;
+        }
+    </style>
+</head>
+<body>
+    <form class="form-control" action="">
+        <header><h1>Form Pembelian Buah</h1></header>
+        <div class="custom-flex">
+            <div class="form-input">
+                <label class="input-label" for="">Nama Pelanggan</label>
+                <input style="margin-left: 2rem;" type="text">
+            </div>
+            <div class="form-input choice">
+                <label class="input-label" for="">Daftar Item</label>
+                <ul style="margin-left:4rem;" class="items">
+                    <li><input type="radio" name="" id=""> Semangka</li>
+                    <li><input type="radio" name="" id=""> Jeruk</li>
+                    <li><input type="radio" name="" id=""> Nanas</li>
+                    <li><input type="radio" name="" id=""> Salak</li>
+                    <li><input type="radio" name="" id=""> Anggur</li>
+                </ul>
+            </div>
+            <input class="btn" type="button" value="Kirim">
+        </div>
+    </form>
+</body>
+</html>
